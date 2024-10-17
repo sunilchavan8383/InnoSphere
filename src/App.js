@@ -168,9 +168,7 @@ function App() {
 
    </div>
    <footer className='ft'>
-        <div className='lgg'>
-        <h1>Contact Us</h1>
-        </div>
+
         <div className='binf'>
           <div className='logo'>
             <img width={100}></img>

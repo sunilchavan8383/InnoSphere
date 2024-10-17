@@ -436,7 +436,7 @@ html, body {
   .welcome {
     height: auto;
     width: auto;
-    background-color: #fdffbf;
+    background-color: #effb98;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -476,13 +476,13 @@ html, body {
   }
 
   .forums {
-    background-color: #b9feff;
+    background: linear-gradient(to right, #87CEEB, #E6E6FA);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     flex-grow: 1;
-    height: 70vh;
+    height: 60vh;
     width: 100%;
     padding-bottom: 10%;
     color: rgb(0, 0, 0);
@@ -602,20 +602,11 @@ html, body {
   }
   footer{
     display: grid;
-    height: 40%;
+    height: 30%;
     width: 100vw;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr;
 
-  }
-  .lgg{
-    background-color: #ffffff;
-    height: 100%;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration:underline;
   }
   .forumimg{
     height:fit-content;
