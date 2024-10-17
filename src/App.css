@@ -51,7 +51,7 @@ html, body {
     height: 100vh;
     width: 100%;
     min-width: 100%;
-    background-color: #F1FFBB;
+    background-color: #FEF9F2;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -259,7 +259,7 @@ html, body {
     width: 60%;
     display: flex;
    align-items: center;
-   margin-top: 40px;
+   padding-top: 2%;
     flex-direction: column;
     gap: 10px;
   }
@@ -432,11 +432,11 @@ html, body {
     width: auto;
     position: relative;
   }
-  
+
   .welcome {
     height: auto;
     width: auto;
-    background-color: #F1FFBB;
+    background-color: #fdffbf;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -476,15 +476,16 @@ html, body {
   }
 
   .forums {
-    background-color: #BBDAFF;
+    background-color: #dfffbd;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     flex-grow: 1;
-    min-height: 40vh;
-    height: auto;
+    height: 70vh;
     width: 100%;
+    padding-bottom: 10%;
+    color: rgb(0, 0, 0);
   }
 
   .forums p {
@@ -525,6 +526,7 @@ html, body {
   }
   .disc{
     padding: 10px;
+    color: rgb(88, 88, 88);
   }
   .f1{
    display: grid;
@@ -595,6 +597,67 @@ html, body {
     height: 80px;
     width: 100%;
   }
+  footer{
+    display: grid;
+    height: 40%;
+    width: 100vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+
+  }
+  .lgg{
+    background-color: #ffffff;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration:underline;
+  }
+  .forumimg{
+    height:fit-content;
+    width: 100vw;
+  }
+  .binf{
+    background-color: rgb(56, 56, 56);
+    height: 100%;
+    width: 100vw;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    list-style: none;
+  }
+  li{
+    font-size: .8rem;
+    gap: 15%;
+    color: rgb(144, 143, 143);
+  }
+  .mt{
+    padding-left: 10%;
+  }
+  .btn-primary{
+    background-color: #ffffff;
+    border: 0;
+    height: 40px;
+    width: 20%;
+    
+    border-radius: 12px;
+  }
+  .btn-primary:hover{
+    background-color: #3e7bff;
+    color: white;
+  }
+  .lgg h1{
+    color: rgb(88, 88, 88);
+  }
+  h1{
+    color: rgb(37, 37, 37);
+    
+  }
+
+
  
 
 
