@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/InnoSphere/static/css/main.21f860ee.css",
-    "main.js": "/InnoSphere/static/js/main.a721efdd.js",
+    "main.css": "/InnoSphere/static/css/main.67f0e9b5.css",
+    "main.js": "/InnoSphere/static/js/main.0f5d3506.js",
     "static/js/453.a41d262b.chunk.js": "/InnoSphere/static/js/453.a41d262b.chunk.js",
     "static/media/taking-notes-concept-illustration.png": "/InnoSphere/static/media/taking-notes-concept-illustration.67c01b9fcd068ec99f93.png",
     "static/media/aaa.png": "/InnoSphere/static/media/aaa.472dc476e8d5343dd213.png",
@@ -11,12 +11,12 @@
     "static/media/man_7122923.png": "/InnoSphere/static/media/man_7122923.1a1bb4e2efa022de7cf5.png",
     "static/media/OBJECTS (1).svg": "/InnoSphere/static/media/OBJECTS (1).fa4af03290789c9f779e864d0aaf683c.svg",
     "index.html": "/InnoSphere/index.html",
-    "main.21f860ee.css.map": "/InnoSphere/static/css/main.21f860ee.css.map",
-    "main.a721efdd.js.map": "/InnoSphere/static/js/main.a721efdd.js.map",
+    "main.67f0e9b5.css.map": "/InnoSphere/static/css/main.67f0e9b5.css.map",
+    "main.0f5d3506.js.map": "/InnoSphere/static/js/main.0f5d3506.js.map",
     "453.a41d262b.chunk.js.map": "/InnoSphere/static/js/453.a41d262b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21f860ee.css",
-    "static/js/main.a721efdd.js"
+    "static/css/main.67f0e9b5.css",
+    "static/js/main.0f5d3506.js"
   ]
 }
