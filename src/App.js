@@ -14,20 +14,19 @@ import { click } from '@testing-library/user-event/dist/click';
 import {useEffect } from 'react';
 
 function App() {
-  let [st1,up1]=useState(true);
+  const [isToolsVisible, setIsToolsVisible] = useState(false);
+  const toggleTools = () => {
+    setIsToolsVisible(!isToolsVisible);
+  };
  
-  
- function stm (){
-   document.querySelector(".welcome").style.backgroundColor='skyblue';
-  }
- 
+
 
   return (
     <div className="App">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div className="container-fluid">
     <a className="navbar-brand" href="#">InnoSphere</a>
-    <a className="nav-link" href="#"  id='aa' onClick={()=>up1(!st1)}>Tools</a>
+    <a className="nav-link" href="#" id="aa" onClick={toggleTools}>Tools</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -126,7 +125,7 @@ function App() {
       </div>
 
     </div>
-    <div className='acttool'>
+    <div className={isToolsVisible ? 'acttooll' : 'acttool'}>
     <div className='f1'>
         <div className='stats'>
         <img src={img3} style={{ width: "100%", height: "90%" }} alt="Responsive image" />
@@ -144,8 +143,8 @@ function App() {
         <img src={img5} style={{  width: "100%", height: "90%"}} alt="Responsive image" />
         </div>
 
-        <div className={`acttool ${st1 ? '': 'acttooll'}`}>
-    <div className='f1'>
+         <div className='tools'>
+       <div className='f1'>
         <div className='stats'>
         <img src={img3} style={{ width: "100%", height: "90%" }} alt="Responsive image" />
         </div>

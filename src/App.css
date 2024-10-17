@@ -476,7 +476,7 @@ html, body {
   }
 
   .forums {
-    background-color: #dfffbd;
+    background-color: #b9feff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -509,9 +509,12 @@ html, body {
     width: 75%;
     background-color: rgb(255, 255, 255);
     position: absolute;
+ 
     top: 0%;
-    transition: 0.5s ease-in;
     right: -75%;
+    transition: 0.5s ease-in;
+
+    
  
    
   }
@@ -520,7 +523,7 @@ html, body {
     width: 75%;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 0%;
+       top: 0%;
     right: 0%;
     transition: 0.5s ease-in;
   }
