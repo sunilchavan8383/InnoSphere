@@ -4,29 +4,59 @@ import img6 from './images/19245721_6099964.svg';
 import img7 from './images/man_7122923.png'
 import img5 from './images/taking-notes-concept-illustration.png'
 import img4 from './images/aaa.png';
-import img8 from './images/OBJECTS (1).svg';
+import img8 from './images/352270_close_icon (1).png';
+import img9 from './images/bagpack_17618299.png';
 import './App.css';
-import footer from "./components/footer";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
-import { click } from '@testing-library/user-event/dist/click';
-
-import {useEffect } from 'react';
 
 function App() {
   const [isToolsVisible, setIsToolsVisible] = useState(false);
+  const [a, b] = useState(false);
   const toggleTools = () => {
     setIsToolsVisible(!isToolsVisible);
+    
+    if (!isToolsVisible) {
+      document.body.classList.add('freeze-background');
+    } else {
+      document.body.classList.remove('freeze-background');
+    }
   };
- 
-
+  const hide = () => {
+    setIsToolsVisible(!isToolsVisible);
+    
+    if (!isToolsVisible) {
+      document.body.classList.remove('.acttooll');
+      document.body.classList.remove('freeze-background');
+    } else {
+      
+      document.body.classList.remove('freeze-background');
+    }
+  };
+  const clghide = () => {
+    b(!a);
+    
+    if (a) {
+      document.body.classList.add('signupp');
+    } 
+  };
+  const clghide1= () => {
+     
+    b(!a);
+    
+    if (!a) {
+      document.body.classList.remove('signupp');
+    } 
+    
+  };
 
   return (
     <div className="App">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div className="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  " id='nav'>
+    <div className="container-fluid custom-shadow">
     <a className="navbar-brand" href="#">InnoSphere</a>
-    <a className="nav-link" href="#" id="aa" onClick={toggleTools}>Tools</a>
+    <a id='aa' onClick={toggleTools}><img src={img9} width='70%'></img></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -65,18 +95,18 @@ function App() {
     <div className='title'>
       <div className='welcome'>
         <div className='head'>
-          <h1>Hello User !</h1>
+          <div className='th1'> <h1>Hello User !</h1></div>
           <p className='disc'>Welcome, Explore Your Gateway to Smarter Learning and Seamless Collaboration! </p>
-          <button type="button" id='nn' class="btn-primary">Start</button>
+          <button type="button" id='nn' class="btn-primary" onClick={clghide}>Start</button>
         </div>
         <div className='img'>
           <img src={img} width={400}></img>
         </div>
       </div>
       <div className='forums'>
-      <h1>Explore Forums</h1>
-      <p className='disc'>Welcome, Explore Your Gateway to Smarter Learning and Seamless Collaboration! </p>
-      <button type="button" class="btn-primary">Explore</button>
+      <h1>Forums</h1>
+      <p className='disc'>Join the discussion and share your thoughts with the community in various forums.</p>
+      <button type="button" class="bt-primary">Explore</button>
       <div className='forumimg'>
       
       </div>
@@ -126,6 +156,7 @@ function App() {
 
     </div>
     <div className={isToolsVisible ? 'acttooll' : 'acttool'}>
+    <div className='hide'><img onClick={hide} src={img8} width={20}></img></div>  
     <div className='f1'>
         <div className='stats'>
         <img src={img3} style={{ width: "100%", height: "90%" }} alt="Responsive image" />
@@ -142,29 +173,12 @@ function App() {
         <div className='notes'>
         <img src={img5} style={{  width: "100%", height: "90%"}} alt="Responsive image" />
         </div>
+        </div>
 
-         <div className='tools'>
-       <div className='f1'>
-        <div className='stats'>
-        <img src={img3} style={{ width: "100%", height: "90%" }} alt="Responsive image" />
-        </div>
-        <div className='ach'>
-        <img src={img4} style={{ width: "90%", height: "90%" }} alt="Responsive image" />
-        </div>
-     
-      
-        <div className='att'>
-        <img src={img6} style={{  width: "100%", height: "90%"}} alt="Responsive image" />
-        </div>
-        <div className='notes'>
-        <img src={img5} style={{  width: "100%", height: "90%"}} alt="Responsive image" />
-        </div>
         
-    </div>
-    </div>
     
      
-    </div>
+   
 
    </div>
    <footer className='ft'>
@@ -194,6 +208,22 @@ function App() {
         </div>
 
     </footer>
+    
+    <div className={a ? 'signupp' : 'signup'}>
+    <div className='clg'>
+    <div className='hide2'><img  onClick={clghide1} src={img8} width={20}></img></div> 
+      <form>
+        <input name='college' type='text' placeholder='Enter College: '/>
+        <input name='collegeCode' type='number' placeholder='Enter College Code: '/>
+        <input name='dept' type='text' placeholder='Enter Department: '/>
+        <input name='deptCode' type='number' placeholder='Enter Department Code: '/>
+        <input name='submit' type='submit' id='aaa'/>
+        
+      </form>
+      
+    </div>
+   
+    </div>
 
     </div>
     </div>
