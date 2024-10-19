@@ -9,7 +9,7 @@ import img9 from './images/bagpack_17618299.png';
 import img10 from './images/user_9977153.png';
 import img11 from './images/1693321165045.jpg'
 import img12 from './images/home_9046092.png'
-import ach from './ach'
+import ach from './ach';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlus } from '@fortawesome/free-solid-svg-icons';
@@ -21,6 +21,7 @@ function App() {
   const [a, b] = useState(false);
   const [c, d] = useState(false);
   const [e, f] = useState(false);
+  const [g, h] = useState(false);
   const toggleTools = () => {
     setIsToolsVisible(!isToolsVisible);
     
@@ -83,6 +84,13 @@ function App() {
     
     if (e) {
       document.body.classList.add('.achievementt');
+    } 
+  };
+  const achbtt= () => {
+    h(!g);
+    
+    if (g) {
+      document.body.classList.add('.notes-sharingg');
     } 
   };
 
@@ -207,7 +215,7 @@ function App() {
         <div className='att'>
         <img src={img6} style={{  width: "100%", height: "90%"}} alt="Responsive image" />
         </div>
-        <div className='notes'>
+        <div className='notes' onClick={achbtt}>
         <img src={img5} style={{  width: "100%", height: "90%"}} alt="Responsive image" />
         </div>
         </div>
@@ -312,6 +320,29 @@ function App() {
         
       </div>
     </div>
+    <div className={g ? 'notes-sharing' : 'notes-sharingg'}>
+        <div className="room-name">
+          class A
+        </div>
+        <div className="main-room">
+          
+          <div className="notes-div">
+            
+          </div>
+          <div className="notes-descript">
+            
+          </div>
+        </div>
+        <div className="type-bar">
+          
+          <div className="plus-icon">
+            
+          </div>
+          <div className="send-icon">
+            
+          </div>
+        </div>
+      </div>
     </div>
     </div>
   );
