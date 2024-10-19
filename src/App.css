@@ -913,7 +913,7 @@ html, body {
 }
 .post{
   width: auto;
-  height: 100vh;
+  height: 90vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows:  0.3fr 2fr 0.3fr 0.4fr;

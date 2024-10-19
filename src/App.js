@@ -6,9 +6,9 @@ import img5 from './images/taking-notes-concept-illustration.png'
 import img4 from './images/aaa.png';
 import img8 from './images/352270_close_icon (1).png';
 import img9 from './images/bagpack_17618299.png';
-import img10 from './images/user_9977153.png';
+import img10 from './images/111104_user_business_man_icon.png';
 import img11 from './images/1693321165045.jpg'
-import img12 from './images/home_9046092.png'
+import img12 from './images/298794_home_icon.png'
 import ach from './ach';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -99,7 +99,7 @@ function App() {
     <nav class="navbar navbar-expand-lg bg-body-tertiary  " id='nav'>
     <div className="container-fluid custom-shadow">
     <a className="navbar-brand" href="#">InnoSphere</a>
-    <a id='aa' onClick={toggleTools}><img src={img9} width='70%'></img></a>
+    <a id='aa' onClick={toggleTools}><img src={img9} width='66%'></img></a>
     <a id='aac' ><img src={img12} width='70%'></img></a>
     <a id='aab' ><img src={img10} width='70%'  onClick={logsign}></img></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
