@@ -447,7 +447,7 @@ html, body {
   .welcome {
     height: 100vh;
     width: 100vw;
-  
+    margin-top:57px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -528,8 +528,10 @@ html, body {
     width: 75%;
     background-color: #E0E0E0;
     position: absolute;
- 
-    top: 0%;
+    position: fixed;
+
+    top: 56px;
+    
     right: -75%;
     transition: 0.5s ease-in;
 
@@ -544,8 +546,9 @@ html, body {
     height: 100vh;
     width: 75%;
     background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: 0%;
+    position: fixed;
+
+    top: 56px;
     right: 0%;
     transition: 0.5s ease-in;
   }
@@ -1067,6 +1070,67 @@ html, body {
   cursor: pointer;
   color: white;
   font-size: 1.2rem;
+}
+.studdash{
+  height: 100vh;
+  width: 100%;
+  background-color: #623BFF;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.4fr 1fr 1fr;
+  right: -100%;
+  top:0;
+  place-items: center;
+  position: absolute;
+  
+}
+.studdashh{
+  height: 100vh;
+  margin-top: 56px;
+  width: 100%;
+ 
+  background-color: #F0F0F0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  top:0;
+  position: fixed;
+  place-items: start;
+  justify-items: center;
+
+  
+}
+#nav{
+  position: fixed;
+  top: 0;
+}
+.ttool{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  place-items: center;
+}
+.giveatt{
+  height: 90%;
+  width: 90%;
+  background-color: rgb(188, 188, 188);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.overatt{
+  height: 90%;
+  width: 90%;
+  background-color: rgb(168, 168, 168);
+}
+.comm{
+  height: 50%;
+  width: 95%;
+  background-color: rgb(133, 133, 133);
+ 
 }
 
 

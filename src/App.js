@@ -7,8 +7,10 @@ import img4 from './images/aaa.png';
 import img8 from './images/352270_close_icon (1).png';
 import img9 from './images/bagpack_17618299.png';
 import img10 from './images/111104_user_business_man_icon.png';
-import img11 from './images/1693321165045.jpg'
-import img12 from './images/298794_home_icon.png'
+import img11 from './images/1693321165045.jpg';
+import img12 from './images/298794_home_icon.png';
+import img13 from './images/sampledata.png';
+import img14 from './images/stud.webp'
 import ach from './ach';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -22,6 +24,7 @@ function App() {
   const [c, d] = useState(false);
   const [e, f] = useState(false);
   const [g, h] = useState(false);
+  const [i, j] = useState(false);
   const toggleTools = () => {
     setIsToolsVisible(!isToolsVisible);
     
@@ -93,6 +96,13 @@ function App() {
       document.body.classList.add('.notes-sharingg');
     } 
   };
+  const stu= () => {
+    j(!i);
+    
+    if (i) {
+      document.body.classList.add('.notes-sharingg');
+    } 
+  };
 
   return (
     <div className="App">
@@ -115,15 +125,8 @@ function App() {
           <a className="nav-link" href="#">Teacher</a>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Student
-          </a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+          <a className="nav-link dropdown-toggle" href="#" role="button"  aria-expanded="false" onClick={stu}>Student</a>
+
         </li>
       </ul>
       <form className="d-flex" role="search">
@@ -342,6 +345,21 @@ function App() {
             
           </div>
         </div>
+      </div>
+      <div className={i ? 'studdashh' : 'studdash'}>
+        <div className='give'>
+          <img src={img14} width='100%'></img>
+        </div>
+        <div className='ttool'>
+        <div className='giveatt'>
+        {/* <FontAwesomeIcon icon={faCirclePlus} width='20%'/> */}
+        </div>
+        <div className='overatt'>
+          {/* <img src={img13} height='100%' ></img> */}
+        </div>
+      
+      </div>
+      <div className='comm'></div>
       </div>
     </div>
     </div>
