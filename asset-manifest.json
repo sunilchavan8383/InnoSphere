@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/InnoSphere/static/css/main.46543474.css",
-    "main.js": "/InnoSphere/static/js/main.a0e2a6c8.js",
+    "main.css": "/InnoSphere/static/css/main.1b1c33a2.css",
+    "main.js": "/InnoSphere/static/js/main.bc5ce3fe.js",
     "static/js/453.fbedcc73.chunk.js": "/InnoSphere/static/js/453.fbedcc73.chunk.js",
     "static/media/taking-notes-concept-illustration.png": "/InnoSphere/static/media/taking-notes-concept-illustration.67c01b9fcd068ec99f93.png",
     "static/media/aaa.png": "/InnoSphere/static/media/aaa.472dc476e8d5343dd213.png",
+    "static/media/1693321165045.jpg": "/InnoSphere/static/media/1693321165045.d70a4e9731bfadb917e3.jpg",
     "static/media/19245721_6099964.svg": "/InnoSphere/static/media/19245721_6099964.982895fa019e9a55eba9c59252de9ce1.svg",
     "static/media/6195525_3156619.svg": "/InnoSphere/static/media/6195525_3156619.4ef8a23fe6c94868fae0aaa5d3926c2e.svg",
     "static/media/28766185_7495399.svg": "/InnoSphere/static/media/28766185_7495399.757fe3d583c84f9b75910cee68604b18.svg",
     "static/media/man_7122923.png": "/InnoSphere/static/media/man_7122923.1a1bb4e2efa022de7cf5.png",
+    "static/media/user_9977153.png": "/InnoSphere/static/media/user_9977153.acf806934e9f3df78d9d.png",
     "static/media/bagpack_17618299.png": "/InnoSphere/static/media/bagpack_17618299.1da0e36889e31b33c7df.png",
+    "static/media/home_9046092.png": "/InnoSphere/static/media/home_9046092.2679f19a71a9c89b2486.png",
     "index.html": "/InnoSphere/index.html",
-    "main.46543474.css.map": "/InnoSphere/static/css/main.46543474.css.map",
-    "main.a0e2a6c8.js.map": "/InnoSphere/static/js/main.a0e2a6c8.js.map",
+    "main.1b1c33a2.css.map": "/InnoSphere/static/css/main.1b1c33a2.css.map",
+    "main.bc5ce3fe.js.map": "/InnoSphere/static/js/main.bc5ce3fe.js.map",
     "453.fbedcc73.chunk.js.map": "/InnoSphere/static/js/453.fbedcc73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46543474.css",
-    "static/js/main.a0e2a6c8.js"
+    "static/css/main.1b1c33a2.css",
+    "static/js/main.bc5ce3fe.js"
   ]
 }
