@@ -6,14 +6,21 @@ import img5 from './images/taking-notes-concept-illustration.png'
 import img4 from './images/aaa.png';
 import img8 from './images/352270_close_icon (1).png';
 import img9 from './images/bagpack_17618299.png';
+import img10 from './images/user_9977153.png';
+import img11 from './images/1693321165045.jpg'
+import img12 from './images/home_9046092.png'
+import ach from './ach'
 import './App.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCirclePlus } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 
 function App() {
   const [isToolsVisible, setIsToolsVisible] = useState(false);
   const [a, b] = useState(false);
+  const [c, d] = useState(false);
+  const [e, f] = useState(false);
   const toggleTools = () => {
     setIsToolsVisible(!isToolsVisible);
     
@@ -38,17 +45,45 @@ function App() {
     b(!a);
     
     if (a) {
-      document.body.classList.add('signupp');
+      document.body.classList.add('signup');
+      
     } 
   };
   const clghide1= () => {
      
     b(!a);
     
-    if (!a) {
-      document.body.classList.remove('signupp');
+    if (a) {
+      document.body.classList.remove('signup');
     } 
     
+  };
+
+ 
+  const logsign= () => {
+    d(!c);
+    
+    if (c) {
+      document.body.classList.add('logsignn');
+    } 
+  };
+  const logsign1= () => {
+     
+    d(!c);
+    
+    if (!c) {
+      document.body.classList.remove('logsignn');
+    } 
+    
+  };
+ 
+
+  const achbt= () => {
+    f(!e);
+    
+    if (e) {
+      document.body.classList.add('.achievementt');
+    } 
   };
 
   return (
@@ -57,6 +92,8 @@ function App() {
     <div className="container-fluid custom-shadow">
     <a className="navbar-brand" href="#">InnoSphere</a>
     <a id='aa' onClick={toggleTools}><img src={img9} width='70%'></img></a>
+    <a id='aac' ><img src={img12} width='70%'></img></a>
+    <a id='aab' ><img src={img10} width='70%'  onClick={logsign}></img></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -162,7 +199,7 @@ function App() {
         <img src={img3} style={{ width: "100%", height: "90%" }} alt="Responsive image" />
 
         </div>
-        <div className='ach'>
+        <div className='ach' onClick={achbt}>
         <img src={img4} style={{ width: "90%", height: "90%" }} alt="Responsive image" />
         </div>
      
@@ -222,9 +259,59 @@ function App() {
       </form>
       
     </div>
+    
+    <div className={c ? 'logsignn' : 'logsign'}>
+    <div className='ls'>
+    <div className='hide3'><img  onClick={logsign1} src={img8} width={20}></img></div> 
+      <form>
+        <input name='name' type='text' placeholder='Name: '/>
+        <input name='email' type='email' placeholder='Email: '/>
+        <input name='password' type='password' placeholder='Password: '/>
+        <input name='submit' type='submit' id='bt'/>
+        
+      </form>
+      <div className='btls'>
+      <button type="button" className="btn btn-secondary bg-black">logIn</button>
+      </div>
+      
+    </div>
+    </div>
+   
    
     </div>
-
+    <div className={e ? 'achievementt' : 'achievement'}>
+    <div className='post'>
+      <div className='prof'></div>
+      <div className='photo'>
+       <img src={img11} width='100%'></img>
+      </div>
+      <div className='like'>
+      <i class="fa fa-heart" aria-hidden="true"></i> <i class="fa fa-comment" aria-hidden="true"></i>
+      </div>
+      <div className='disc2'>
+      Removed the "Name" field, keeping only the "Email" and "Password" inputs since the login typically only requires those fields.
+      </div>
+      
+      </div>
+      <div className='post'>
+      <div className='prof'></div>
+      <div className='photo'>
+       <img src={img11} width='100%'></img>
+      </div>
+      <div className='like'>
+      <i class="fa fa-heart" aria-hidden="true"></i> <i class="fa fa-comment" aria-hidden="true"></i>
+      </div>
+      <div className='disc2'>
+      Removed the "Name" field, keeping only the "Email" and "Password" inputs since the login typically only requires those fields.
+      </div>
+   
+      </div>
+      <div className='addpost'>
+        
+      <FontAwesomeIcon icon={faCirclePlus} />
+        
+      </div>
+    </div>
     </div>
     </div>
   );
