@@ -547,7 +547,7 @@ html, body {
     width: 75%;
     background-color: rgb(255, 255, 255);
     position: fixed;
-
+    z-index: 5000;
     top: 56px;
     right: 0%;
     transition: 0.5s ease-in;
@@ -948,9 +948,8 @@ html, body {
 .notes-sharing {
   width: 100%;
   height: 100vh;
- 
   background-color: #F0F0F0;
-  padding: 20px;
+  
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -958,7 +957,7 @@ html, body {
 }
 .notes-sharingg {
   width: 100%;
-  left: -100%;
+  right: -100%;
   top:60px;
   margin: 20px auto;
   background-color: #fff;
@@ -1089,11 +1088,12 @@ html, body {
   margin-top: 56px;
   width: 100%;
  
-  background-color: #F0F0F0;
+  background-color: #d8d7d7;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 1.5fr 2fr 1.5fr;
   top:0;
+  z-index: auto;
   position: fixed;
   place-items: start;
   justify-items: center;
@@ -1115,7 +1115,7 @@ html, body {
 .giveatt{
   height: 90%;
   width: 90%;
-  background-color: rgb(188, 188, 188);
+  background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1124,14 +1124,378 @@ html, body {
 .overatt{
   height: 90%;
   width: 90%;
-  background-color: rgb(168, 168, 168);
+  background-color: rgb(255, 255, 255);
 }
 .comm{
   height: 50%;
   width: 95%;
-  background-color: rgb(133, 133, 133);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
  
 }
+.comm:hover{
+
+  background-color: rgb(47, 133, 253);
+  color: white;
+
+ 
+}
+
+.card {
+    height: auto;
+    width: 100%;
+    
+    
+  }
+  
+  .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #e0efff;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .name {
+    margin-top: 8%;
+  }
+  
+  .card img {
+    height: 8vw; 
+    width: 25%;
+    margin-top: 6%;
+  }
+  
+  .circle-img {
+    border-radius: 50%;
+    border: 3px solid #fff;
+    object-fit: cover; 
+  }
+  
+  
+  .bottom {
+    background-color: #ffffff;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .info {
+    margin-left: 5%;
+  }
+  
+  
+  .notes-start {
+    padding: 20px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: ;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .notes-title {
+    font-size: 150%;
+    font-weight:bold;
+    color: #2d3436;
+    margin-bottom: 10px;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  .notes-title p{
+    margin-left: 3%;
+  }
+  
+  .class-name {
+    font-size: 1.5rem;
+    color: #636e72;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .sub-box {
+    display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .teachdash{
+    height: 100vh;
+    width: 100%;
+    background-color: #623BFF;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.4fr 1fr 1fr;
+    right: -100%;
+    top:0;
+    place-items: center;
+    position: absolute;
+    
+  }
+  .teachdashh{
+    height: 100vh;
+    margin-top: 56px;
+    width: 100%;
+    background-color: #d8d7d7;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 2fr 1.5fr;
+    top:0;
+    position: fixed;
+    place-items: start;
+    justify-items: center;
+    z-index:auto;
+  
+    
+  }
+  .logo{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+  }
+ .forums2{
+  height: 100vh;
+  width: 100%;
+  padding-top: 56px;
+  display: flex;
+  top: 0;
+  right: -100%;
+  position: fixed;
+  justify-content: center;
+  background-color: rgb(216, 215, 215);
+
+
+ }
+ .forums22{
+  height: 100vh;
+  width: 100%;
+  padding-top: 56px;
+  display: flex;
+  top: 0;
+  right: 0%;
+  position: fixed;
+  justify-content: center;
+  background-color: rgb(215, 215, 215);
+
+
+ }
+
+    .forum-sec {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 20px;
+       width: 100%;
+        margin: 0 auto;
+ 
+      }
+      
+      /* Question and Answer Sections */
+      .question-section, .answer-section {
+        background-color: #ffffff;
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+      }
+      
+      /* Headers */
+      .question-section h2, .answer-section h2 {
+        margin: 0 0 10px 0;
+        font-size: 1.2em;
+        color: #333;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 8px;
+      }
+      
+      /* Content Styling */
+      .question-content, .answer-content {
+        font-size: 1em;
+        line-height: 1.6;
+        color: #555;
+        padding: 8px 0;
+      }
+      
+      /* Action Buttons */
+      .question-actions, .answer-actions {
+        display: flex;
+        gap: 10px;
+        margin-top: 8px;
+      }
+      
+      .question-actions button, .answer-actions button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 6px 12px;
+        cursor: pointer;
+        font-size: 0.9em;
+      }
+      
+      .question-actions button:hover, .answer-actions button:hover {
+        background-color: #0056b3;
+      }
+      /* Answer Input Section */
+.answer-input-section {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.answer-input-section textarea {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 1em;
+  resize: none;
+}
+
+.answer-input-section .answer-actions button {
+  align-self: flex-end;
+  background-color: #28a745;
+  color: white;
+  padding: 6px 12px;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.answer-input-section .answer-actions button:hover {
+  background-color: #218838;
+}
+textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 1em;
+  resize: none;
+  margin-bottom: 8px;
+}
+
+textarea:focus {
+  outline: 2px solid #007bff;
+}
+
+.question-actions button,
+.answer-actions button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+      
+
+
+ .attendance_stats{
+  height: calc(100% - 56px);
+  margin-top: 56px;
+  width: 100%;
+  background-color: rgb(215, 215, 215);
+  overflow-y: scroll;
+  top: 0;
+  right: -100%;
+  position: fixed;
+ }
+ .attendance_statss{
+  height: calc(100% - 56px);
+  margin-top: 56px;
+  width: 100%;
+  background-color: rgb(215, 215, 215);
+  overflow-y: scroll;
+  top: 0;
+  position: fixed;
+  right: 0%;
+ }
+ .attendance_tools{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5%;
+  
+
+
+ }
+ .toptea{
+  margin-top: 5%;
+  min-height: 15%;
+  width: 90%;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+ }
+ .topstu{
+  min-height: 15%;
+  width: 90%;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+ }
+ .genderwise{
+  width: 90%;
+  min-height: 60%;
+  background-color: #ffffff;
+
+
+ }
+ .timely{
+  width: 90%;
+  min-height: 60%;
+  background-color: #ffffff;
+  
+ }
+ .tea1,.tea2,.tea3{
+  height: 100%;
+  width: 100%;
+ }
+ .tea1{
+  background-color: #2d3436;
+ }
+ .tea2{
+  background-color: #6baabc;
+ }
+ .tea3{
+  background-color: #3399ff;
+ }
+ .stu1,.stu2,.stu3{
+  height: 100%;
+  width: 100%;
+ }
+ .stu1{
+  background-color: #2d3436;
+ }
+.stu2{
+  background-color: #6baabc;
+}
+.stu3{
+  background-color: #3399ff;
+}
+
 
 
 

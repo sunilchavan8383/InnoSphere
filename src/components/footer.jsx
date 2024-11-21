@@ -1,19 +1,36 @@
-import React from 'react'
 
-export default function footer() {
-  return (
-    <footer className='ft' style={{backgroundColor:'red'}}>
-        <div className='lgg'>
-        <h1>Contact Us</h1>
-        </div>
+import React from "react";
+
+function Footer() {
+    return (
+        <footer className='ft'>
+
         <div className='binf'>
-          <h1>Move to</h1>
-           <ul>
-            <li>Home</li>
-            <li>Forums</li>
-           </ul>
+          <div className='logo'>
+          
+          </div>
+          <div className='contact'>
+        <h5>Contact</h5>
+         
+            <li>InnoSphere</li>
+            <li>InnoSphere@gmail.com</li>
+            <li>+129381</li>
+        
         </div>
-
-    </footer>
-  )
-}
+        <div className='mt'>
+        <h5>Move to</h5>
+         
+        <li>Home</li>
+        <li>Forums</li>
+        <li>Contact</li>
+        
+        </div>
+        
+        
+        </div>
+        
+        </footer>
+    );
+  }
+  
+  export default Footer;
