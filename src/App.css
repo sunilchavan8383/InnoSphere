@@ -1277,7 +1277,7 @@ html, body {
   display: flex;
   top: 0;
   right: 0%;
-  position: fixed;
+
   justify-content: center;
   background-color: rgb(215, 215, 215);
 
@@ -1289,7 +1289,7 @@ html, body {
         flex-direction: column;
         gap: 16px;
         padding: 20px;
-       width: 100%;
+        width: 100%;
         margin: 0 auto;
  
       }
