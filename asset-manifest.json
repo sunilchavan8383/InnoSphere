@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/InnoSphere/static/css/main.cec55c2d.css",
-    "main.js": "/InnoSphere/static/js/main.cd7e2f5a.js",
-    "static/js/453.fbedcc73.chunk.js": "/InnoSphere/static/js/453.fbedcc73.chunk.js",
-    "static/media/taking-notes-concept-illustration.png": "/InnoSphere/static/media/taking-notes-concept-illustration.67c01b9fcd068ec99f93.png",
-    "static/media/aaa.png": "/InnoSphere/static/media/aaa.472dc476e8d5343dd213.png",
-    "static/media/1693321165045.jpg": "/InnoSphere/static/media/1693321165045.d70a4e9731bfadb917e3.jpg",
-    "static/media/logo-transformed.png": "/InnoSphere/static/media/logo-transformed.58487f1c72ac6df3daef.png",
-    "static/media/teacher.webp": "/InnoSphere/static/media/teacher.0a72e0c051bbf95dc512.webp",
-    "static/media/stud.webp": "/InnoSphere/static/media/stud.36ab56c93522cbf8425d.webp",
-    "static/media/19245721_6099964.svg": "/InnoSphere/static/media/19245721_6099964.982895fa019e9a55eba9c59252de9ce1.svg",
-    "static/media/6195525_3156619.svg": "/InnoSphere/static/media/6195525_3156619.4ef8a23fe6c94868fae0aaa5d3926c2e.svg",
-    "static/media/28766185_7495399.svg": "/InnoSphere/static/media/28766185_7495399.757fe3d583c84f9b75910cee68604b18.svg",
-    "static/media/man_7122923.png": "/InnoSphere/static/media/man_7122923.1a1bb4e2efa022de7cf5.png",
-    "static/media/bagpack_17618299.png": "/InnoSphere/static/media/bagpack_17618299.1da0e36889e31b33c7df.png",
-    "index.html": "/InnoSphere/index.html",
-    "main.cec55c2d.css.map": "/InnoSphere/static/css/main.cec55c2d.css.map",
-    "main.cd7e2f5a.js.map": "/InnoSphere/static/js/main.cd7e2f5a.js.map",
-    "453.fbedcc73.chunk.js.map": "/InnoSphere/static/js/453.fbedcc73.chunk.js.map"
+    "main.css": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/css/main.e2c1a128.css",
+    "main.js": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/js/main.867d532e.js",
+    "static/js/453.fbedcc73.chunk.js": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/js/453.fbedcc73.chunk.js",
+    "static/media/taking-notes-concept-illustration.png": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/media/taking-notes-concept-illustration.67c01b9fcd068ec99f93.png",
+    "static/media/aaa.png": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/media/aaa.472dc476e8d5343dd213.png",
+    "static/media/1693321165045.jpg": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/media/1693321165045.d70a4e9731bfadb917e3.jpg",
+    "static/media/logo-transformed.png": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/media/logo-transformed.58487f1c72ac6df3daef.png",
+    "static/media/teacher.webp": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/media/teacher.0a72e0c051bbf95dc512.webp",
+    "static/media/stud.webp": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/media/stud.36ab56c93522cbf8425d.webp",
+    "static/media/19245721_6099964.svg": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/media/19245721_6099964.982895fa019e9a55eba9c59252de9ce1.svg",
+    "static/media/6195525_3156619.svg": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/media/6195525_3156619.4ef8a23fe6c94868fae0aaa5d3926c2e.svg",
+    "static/media/28766185_7495399.svg": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/media/28766185_7495399.757fe3d583c84f9b75910cee68604b18.svg",
+    "static/media/man_7122923.png": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/media/man_7122923.1a1bb4e2efa022de7cf5.png",
+    "static/media/bagpack_17618299.png": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/media/bagpack_17618299.1da0e36889e31b33c7df.png",
+    "index.html": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/index.html",
+    "main.e2c1a128.css.map": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/css/main.e2c1a128.css.map",
+    "main.867d532e.js.map": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/js/main.867d532e.js.map",
+    "453.fbedcc73.chunk.js.map": "/git%20remote%20add%20origin%20https://github.com/sunilchavan8383/static/js/453.fbedcc73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cec55c2d.css",
-    "static/js/main.cd7e2f5a.js"
+    "static/css/main.e2c1a128.css",
+    "static/js/main.867d532e.js"
   ]
 }
